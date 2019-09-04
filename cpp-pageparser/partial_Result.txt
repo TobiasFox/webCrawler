@@ -1,0 +1,34 @@
+0 [shape=box, label="http://www.boehmwanderkarten.de/kartographie/is_netze_cyl.html"];
+1 [shape=box, label="www.boehmwanderkarten.de/index.html"];
+2 [shape=box, label="www.boehmwanderkarten.de/neuigkeiten/is_neu.html"];
+3 [shape=box, label="www.boehmwanderkarten.de/kv/is_kv_main.html"];
+71 [shape=box, label="www.boehmwanderkarten.de/kartographie/netze/america_equidistant_cylinder_15_15.jpg", color=blue, style=dotted];
+72 [shape=box, label="www.boehmwanderkarten.de/kartographie/netze/america_equal-area_cylinder_15_15.jpg", color=blue, style=dotted];
+
+74 [shape=box, label="www.boehmwanderkarten.de/index.html"];
+75 [shape=box, label="www.boehmwanderkarten.de/neuigkeiten/is_neu.html"];
+94 [shape=box, label="www.boehmwanderkarten.de/neuigkeiten/ib_neu_fruehlingssonne_brand.jpg", color=blue, style=dotted];
+
+97 [shape=box, label="http://www.schwarzbachbahn.de"];
+203 [shape=box, label="www.boehmwanderkarten.de/neuigkeiten/ib_neu_bruecke_lohsdorf.jpg", color=blue, style=dotted];
+
+264 [shape=box, label="www.boehmwanderkarten.deis_kvue.html"];
+269 [shape=box, label="blattschnitt/ib_blattschnitt.jpg", color=blue, style=dotted];
+
+0 -- 1;
+0 -- 2;
+0 -- 3;
+0 -- 71 [color=blue];
+0 -- 72 [color=blue];
+
+1 -- 74;
+1 -- 75;
+1 -- 94 [color=blue];
+
+2 -- 97;
+2 -- 203 [color=blue];
+
+3 -- 264;
+3 -- 269 [color=blue];
+
+See example on https://rise4fun.com/Agl/rriA
